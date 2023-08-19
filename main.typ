@@ -268,9 +268,9 @@ Phần mềm được chia thành 3 module, mỗi module có 1 REST API.
 )
 
 Trong đó mỗi module có công dụng:
-- `PDF Image Extract`: Tách file PDF thành một mảng các trang (dưới dạng ảnh), mỗi trang được đưa vào một luồng xử lý và gửi song song đến REST API của `Tesseract Paragraph Extract`.
+- `PDF Image Extract`: Tách file PDF thành một mảng các trang (dưới dạng ảnh), sau đó gửi đến các API tiếp theo bằng 1 trong 3 cách.
 - `Tesseract Paragraph Extract`: Tách ảnh trang giấy thành một mảng chứa các đoạn văn trong trang (dưới dạng ảnh), mỗi đoạn văn được đưa vào một luồng xử lý và gửi song song đến REST API của `Tesseract Reader`
-- `Tesseract Reader`: Dùng Tesseract đọc chữ từ ảnh đoạn văn, trả về kết quả
+- `Tesseract Reader`: Dùng Tesseract đọc chữ từ ảnh, trả về kết quả
 
 API có thể xử lý PDF với theo 3 cách:
 - Xử lý tuần tự: Gửi tuần tự từng trang đến `Tesseract Reader`
