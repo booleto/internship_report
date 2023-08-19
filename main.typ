@@ -33,7 +33,7 @@
 
 
 #align(
-  center, text(24pt, bottom-edge: "ascender")[Lời cảm ơn]
+  center, text(24pt, bottom-edge: "baseline")[Lời cảm ơn]
 )
 Em xin cảm ơn các thầy cô khoa Toán - Cơ - Tin học đã tạo điều kiện cho em hoàn thành kỳ thực tập năm nay. Kỳ thực tập đã đem lại nhiều kinh nghiệm làm việc quý báu cho em, và sẽ là hành trang giúp em tiếp tục phát triển kỹ năng sau này.
 
